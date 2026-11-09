@@ -273,3 +273,21 @@ footer p {
     section { flex: 1 1 72%; }
     .resources { flex: 0 1 28%; min-width: 220px; width: auto; }
 }
+
+/* Chapter 9: Strength Training page lists and links */
+header .logo-link { display: inline; }
+.strength-page ul,
+.strength-page ol {
+    margin: 0.3em 0 1em 1.8em;
+    padding-left: 0.5em;
+}
+.strength-page li { margin-bottom: 0.45em; line-height: 1.45; }
+.strength-page li::marker { color: steelblue; }
+.strength-page h3 { color: steelblue; }
+.strength-page p:last-child { margin-top: 1.1em; }
+.strength-page p:last-child a { overflow-wrap: anywhere; }
+.strength-page + .resources ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
